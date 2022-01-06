@@ -120,7 +120,7 @@ samples = diffusion.p_sample_loop(
 )[:batch_size]
 model.del_cache()
 
-# 64x64 samples = way too small to bother saving;)
+# 64x64 samples = way too small to bother saving, but uncomment if you like!
 #save_images(samples)
 
 ##############################
@@ -163,9 +163,5 @@ up_samples = diffusion_up.ddim_sample_loop(
 )[:batch_size]
 model_up.del_cache()
 
-# Show the output
+# Save the output
 save_images(up_samples)
-
-# Info:
-# Class: Torch.tensor
-# Debug: torch.Size([4, 3, 256, 256])
