@@ -24,7 +24,7 @@ For detailed usage examples, see the [notebooks](notebooks) directory.
 [colab-guided]: <https://colab.research.google.com/github/openai/glide-text2im/blob/main/notebooks/clip_guided.ipynb>
 
 # Local versions
-The local versions of the notebooks are as close as possible to the original notebooks. Changes include:
+The local versions of the notebooks are as close as possible to the original notebooks, which remain unchanged here. Changes to local versions include:
 
  * No need for "display"
  * Individual images are also saved, as well as the image strip (only upscaled images are saved by default)
