@@ -10,7 +10,6 @@ To install this package, clone this repository and then run:
 
 ```
 pip install -e .
-pip install pyyaml
 ```
 
 For detailed usage examples, see the [notebooks](notebooks) directory.
