@@ -24,6 +24,7 @@ setup(
         "tqdm",
         "ftfy",
         "regex",
+        "pyyaml",
     ],
     author="OpenAI",
 )
