@@ -9,7 +9,7 @@ from glide_text2im.model_creation import (
     model_and_diffusion_defaults_upsampler
 )
 
-# Sampling parameters
+# Sampling parametersfd
 prompt = "A nerdy rodent"
 batch_size = 4
 guidance_scale = 3.0
