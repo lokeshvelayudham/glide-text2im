@@ -10,7 +10,7 @@ from glide_text2im.model_creation import (
 )
 
 # Sampling parameters
-prompt = "A nerdy rodent"
+prompt = "A nerdy"
 batch_size = 4
 guidance_scale = 3.0
 
